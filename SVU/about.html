@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script type="text/javascript">
+Var OnloadCallback = function () {
+grecaptcha.render('html_element' , {
+'siteKey ' : '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXJiZKhI' });
+};  </script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>تسجيل</title>
+
+
+  <!-- Favicons -->
+  <link href="assets/img/a.jpg" rel="icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Moderna - v4.10.1
+  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>SVU</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="" href="index.html">Home</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= About Section ======= -->
+    <section class="about" data-aos="fade-up">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <img src="assets/img/aaa.PNG" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-12 mt-5 text-center">
+            <h3>اذا كنت ترغب بالتسجيل قم بتعبئة الجدول الآتي</h3>
+            <div class="form-group row m-5">
+              <label for="Usernaem" class="col-sm-2 col-form-label">اسم المستخدم</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="username" placeholder="Usernaem" >
+              </div>
+            </div>
+
+            <div class="form-group row m-5">
+              <label for="name" class="col-sm-2 col-form-label">اسم الطالب</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" placeholder="name">
+              </div>
+            </div>
+
+            <div class="form-group row m-5">
+              <label for="date" class="col-sm-2 col-form-label">تاريخ الولادة</label>
+              <div class="col-sm-10">
+                <input type="date" class="form-control" id="date" placeholder="Usernaem">
+              </div>
+            </div>
+
+            <div class="form-group row m-5">
+              <label for="Usernaem" class="col-sm-2 col-form-label">البرنامج</label>
+              <div class="col-sm-10">
+                <select class="form-control" id="program" name="program">
+                  <option value="BAIT">BAIT</option>
+                  <option value="MBA">MBA</option>
+                  <option value="TIC">TIC</option>
+                  <option value="ITE">ITE</option>
+                  <option value="BMC">BMC</option>
+                  <option value="BL">BL</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group row m-5">
+              <label for="mobile" class="col-sm-2 col-form-label">الموبايل</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="mobile" placeholder="ex: +963946173043">
+              </div>
+            </div>
+
+
+            <div class="form-group row m-5">
+              <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+            </div>
+             يرجى ادخال رمز التحقق(الكابتشا)<div id="html_element">
+              </div>
+            <div class="form-group row m-5">
+              <div class="col-sm-10">
+                <button type="button" class="btn btn-primary w-100" onclick="create()">اضافة </button> 
+              </div>
+            </div>
+          </div>
+          <div class="form-group row m-5">
+            <label class="col-sm-2 col-form-label">الفلتر بحسب البرنامج</label>
+            <div class="col-sm-10">
+              <select  class="form-control" id="program_filter" onchange="program_filter()"> 
+                <option value="all"> all </option>
+                <option value="BAIT">BAIT</option>
+                  <option value="MBA">MBA</option>
+                  <option value="TIC">TIC</option>
+                  <option value="ITE">ITE</option>
+                  <option value="BMC">BMC</option>
+                  <option value="BL">BL</option>
+              </select>
+            </div>
+          </div>
+
+            
+          <div class="form-group row m-5">
+            الفرز حسب<input type="radio"  name="sortop" onclick="sort_by_id()"> رقم المستخدم
+           <input type="radio"   name="sortop" onclick="sort_by_name()"> اسم الطالب
+            <input type="radio"  name="sortop" onclick="sort_by_program()"> البرنامج 
+             </div>
+            <div id="table-area"></div>
+            
+            <input type=button value="convert to json" onclick="toJson()">
+            <code class="m-4 p-5" style="border: 1px solid gray;" id="json-area"></code>
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- ======= Our Skills Section ======= -->
+    <section class="skills" data-aos="fade-up">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>بعض النسب للحصاد الدراسي</h2>
+          <p>تعرض النسب الآتية بعض التفاصيل لجامعتنا</p>
+        </div>
+
+        <div class="skills-content">
+
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">نسب النجاح <i class="val">90%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">نسبة طلاب الترقية <i class="val">50%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">نسبة الرسوب <i class="val">35%</i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Our Skills Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Syrian Virtual University</h4>
+          </div>
+          <div class="col-lg-6">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our undergraduate degrees</h4>
+            <ul>
+              <li> PHD degree</li>
+              <li> Master's degree</li>
+              <li>Bachelor's degree</li>
+              <li>Diploma degree</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4> of our specialties</h4>
+            <ul>
+              <li> لإجازة في الهندسة المعلوماتية</li>
+              <li> الإجازة في تقانة الاتصالات </li>
+              <li> الإجازة في تقانة المعلومات </li>
+            </ul>
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
+          </div>
+        </div>
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  >
+
+  <script src="https://www.google.com/recaptcha/api.js">
+  </script>
+
+
+  <script>
+    var array = [];
+
+
+    function create() {
+      var username = document.getElementById('username').value;
+      var name = document.getElementById('name').value;
+      var date = document.getElementById('date').value;
+      var program = document.getElementById('program').value;
+      var mobile = document.getElementById('mobile').value;
+
+      var username_parts = username.split("_");
+      if (username == null || username == '') {
+        alert("Username must be not empty")
+      } else if (name == null || name == '') {
+        alert("name must be not empty")
+      } else if (date == null || date == '') {
+        alert("date must be not empty")
+      } else if (program == null || program == '') {
+        alert("program must be not empty")
+      } else if (mobile == null || mobile == '') {
+        alert("mobile must be not empty")
+      }
+
+
+      else if (username[0] !== username[0].toUpperCase()) {
+        alert("username must start with capital")
+      }
+      else if (!username.includes("_")) {
+        alert("username must ontains _")
+      }
+      else if (username_parts[0].length === 0 || !(/^[a-zA-Z]/.test(username_parts[0]))) {
+        alert("username left must be letters")
+      }
+      else if (username_parts[1].length === 0 || !(/^-?\d+$/.test(username_parts[1]))) {
+        alert("username right must be number")
+      }
+
+
+      else if (mobile.length != 11 && mobile.length != 13) {
+        alert("mobile number length is wrong")
+      }
+      else if (!mobile.startsWith("+963")) {
+        alert("you must add SYR code +963")
+      }
+      else if (mobile.length == 13 && !mobile.startsWith("+9639")) {
+        alert("not valid MTN/Syriatel mobile number")
+      }
+
+      array.push({
+        id: username_parts[1],
+        username: username,
+        name: name,
+        date: date,
+        program: program,
+        mobile: mobile
+      });
+
+      print_table();
+
+    }
+
+    var program_filter_value = "all";
+    function program_filter(){ 
+      var e = document.getElementById("program_filter");
+      program_filter_value = e.value; 
+      alert("Filter on program: " + program_filter_value)
+      print_table(); 
+    }
+
+
+    function print_table(){
+      var tableStr = "<table class='table'><thead><tr><th>SN</th><th>Username</th><th>Std name</th><th>Program</th></tr></thead>";
+      tableStr+="<tbody>";
+      
+      for(var i = 0; i < array.length; i++){
+        if(program_filter_value == "all"){
+          tableStr+="<tr><td>"+(i+1)+"</td><td>"+array[i].username+"</td><td>"+array[i].name+"</td><td>"+array[i].program+"</td></tr>";
+        }else{
+          if(array[i].program == program_filter_value){
+            tableStr+="<tr><td>"+(i+1)+"</td><td>"+array[i].username+"</td><td>"+array[i].name+"</td><td>"+array[i].program+"</td></tr>";
+          }
+        }
+      }  
+
+      tableStr+="</tbody></table>";   
+
+      document.getElementById('table-area').innerHTML = tableStr;
+    }
+
+    function toJson(){
+      const jsonStr = JSON.stringify(array);
+      document.getElementById('json-area').innerHTML = jsonStr;
+    }
+
+    function sort_by_name(){
+      function _sorter( a, b ) {
+        if ( a.name < b.name ){
+          return -1;
+        }
+        if ( a.name > b.name ){
+          return 1;
+        }
+        return 0;
+      }
+
+      array.sort( _sorter );
+      alert("sorting by name")
+      print_table()
+    }
+
+    
+    function sort_by_id(){
+      function _sorter( a, b ) {
+        if ( a.id < b.id ){
+          return -1;
+        }
+        if ( a.id > b.id ){
+          return 1;
+        }
+        return 0;
+      }
+
+      array.sort( _sorter );
+      alert("sorting by id")
+      print_table()
+    }
+
+    
+    function sort_by_program(){
+      function _sorter( a, b ) {
+        if ( a.program < b.program ){
+          return -1;
+        }
+        if ( a.program > b.program ){
+          return 1;
+        }
+        return 0;
+      }
+
+      array.sort( _sorter );
+      alert("sorting by program")
+      print_table()
+    }
+    
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadcallback&rende" async defer></script>
+</body>
+
+</html>
